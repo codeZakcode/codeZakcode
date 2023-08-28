@@ -1,0 +1,19 @@
+write a user defined functions  which takes 2 input parameters of DATE data type. 
+The function should return no of business days between the 2 dates.
+note -> if any of the 2 input dates are falling on saturday or sunday then function should use immediate Monday 
+date for calculation
+
+example if we pass dates as 2022-12-18 and 2022-12-24..then it should calculate business days 
+between 2022-12-19 and 2022-12-26
+---------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+create a table called books . columns : book_name ,  last_issue_date. 
+
+write a procedure for a library book management system. the procedure should take 2 arguments :
+1- book_name
+2- transaction type (it can be either of the 3 values : new_book/issued/returned)
+
+actions for 3 transaction types:
+1- new_book: this means a new book needs to be added to the book table . at this point issue date can be null.
+2- issued ..it means the book has been issues to a customer and issue date should be updated as current date in the book table
+3- returned..it means book has been returned and issue date should be set to null again.
